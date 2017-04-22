@@ -1,7 +1,7 @@
   
-Current configuration : 3509 bytes
+Current configuration : 3548 bytes
 !
-! Last configuration change at 19:51:58 UTC Sun Apr 16 2017
+! Last configuration change at 04:18:35 UTC Sat Apr 22 2017 by george
 !
 version 15.2
 service timestamps debug datetime msec
@@ -51,6 +51,9 @@ vlan internal allocation policy ascending
 !
 vlan 20
  name VLAN 20 TEST
+!
+vlan 25
+ name Test VLAN 25
 !
 ! 
 !

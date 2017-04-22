@@ -1,7 +1,7 @@
   
-Current configuration : 3948 bytes
+Current configuration : 4013 bytes
 !
-! Last configuration change at 19:38:02 UTC Sun Apr 16 2017 by george
+! Last configuration change at 02:50:41 UTC Sat Apr 22 2017 by george
 !
 version 15.2
 service timestamps debug datetime msec
@@ -46,11 +46,15 @@ no ipv6 cef
 !
 spanning-tree mode pvst
 spanning-tree extend system-id
+spanning-tree vlan 25 priority 8192
 !
 vlan internal allocation policy ascending
 !
 vlan 20
  name VLAN 20 TEST
+!
+vlan 25
+ name Test VLAN 25
 !
 ! 
 !
